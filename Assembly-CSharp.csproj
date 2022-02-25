@@ -36,12 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Low_Swordman\Demo\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Low_Swordman\Demo\Scripts\GroundSensor.cs" />
-     <Compile Include="Assets\Low_Swordman\Demo\Scripts\Swordman.cs" />
-     <Compile Include="Assets\Low_Swordman\Demo\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Low_Swordman\Demo\Scripts\Demo_GM.cs" />
      <Compile Include="Assets\Scripts\Spawn.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
+     <None Include="Assets\Nature_pixel_art_assets\pixel_snapping_README.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

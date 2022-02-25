@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 230758563938843411}
   - component: {fileID: 2044436120271422021}
-  - component: {fileID: 2584433220946513486}
+  - component: {fileID: -6954797639990424941}
   m_Layer: 0
   m_Name: gem_4
-  m_TagString: Untagged
+  m_TagString: gem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!54 &2584433220946513486
+--- !u!54 &-6954797639990424941
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
