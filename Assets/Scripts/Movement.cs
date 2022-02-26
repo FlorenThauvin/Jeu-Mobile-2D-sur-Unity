@@ -21,4 +21,10 @@ public class Movement : MonoBehaviour{
         Vector3 target = new Vector2(_moveRight, body.velocity.y);
         body.velocity = Vector3.SmoothDamp(body.velocity,target, ref velocity, 0.05f);
     }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.CompareTag("Coins")){
+            Destroy(other.gameObject);
+        }
+    }
 }
