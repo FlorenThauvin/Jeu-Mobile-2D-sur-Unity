@@ -17,9 +17,9 @@ public class Movement : MonoBehaviour
         var move = Input.GetAxis("Horizontal");
         transform.position += new Vector3(move,0,0)* Time.deltaTime * Speed;
 
-        if (!Mathf.Approximately(0,move)){
-            transform.rotation = move > 0 ? Quaternion.Euler(0,180,0):Quaternion.identity;
-        }
+        /**if (!Mathf.Approximately(0,move)){
+          transform.rotation = move > 0 ? Quaternion.Euler(0,180,0):Quaternion.identity;
+        }**/
 
         if(Input.GetButtonDown("Jump")&& Mathf.Abs(_rigidbody.velocity.y)<0.1f){
             _rigidbody.AddForce(new Vector2(0,Jump),ForceMode2D.Impulse);
