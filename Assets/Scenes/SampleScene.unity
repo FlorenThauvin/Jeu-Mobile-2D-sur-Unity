@@ -2252,7 +2252,7 @@ MonoBehaviour:
   jump: 300
   isJumping: 0
   isGrounded: 0
-  rb: {fileID: 1494084622}
+  body: {fileID: 1494084622}
   droite: {fileID: 1422569086}
   gauche: {fileID: 2115876106}
 --- !u!58 &1494084624
