@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637814848952899986
+      ticks: 637814937150479350
     m_Hash: 3539230812
   m_LockFileStatus:
     m_FilePath: C:/Users/HP/Desktop/Unity/TestMobile/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637814848952989747
+      ticks: 637814937150599137
     m_Hash: 4273937212
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
