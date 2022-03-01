@@ -5,10 +5,16 @@ public class Movement : MonoBehaviour{
     public float jump;              // variable pour le saut
     public Rigidbody2D body;          // rigibody
     private Vector3 velocity = Vector3.zero;    // vecteur pour la velocité
+    public Animator animator;
+    public SpriteRenderer sprite;
 
     void FixedUpdate(){ 
         float moveRight = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;     // si il appuie les touches de déplacement on multiplue l'axe horizontal par la speed et deltaTime
         Move(moveRight);
+        Flip(body.velocity.x);
+        float absVelocity = Mathf.Abs(body.velocity.x);
+        animator.SetFloat("Speed",absVelocity);
+
     }
 
     void Update() {
@@ -26,5 +32,11 @@ public class Movement : MonoBehaviour{
         if(other.gameObject.CompareTag("Coins")){
             Destroy(other.gameObject);
         }
+    }
+
+    void Flip(float _velocity){
+        if(_velocity>0.1f){sprite.flipX=false;}
+        else if(_velocity<-0.1f){sprite.flipX=true;}
+
     }
 }
