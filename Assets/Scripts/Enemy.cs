@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     public float speed;
     public Transform[] waypoints;
     private Transform target;
-
+    public int dmg;
     public SpriteRenderer sprite;
     private int destination=0;
     void Start(){
@@ -22,6 +22,12 @@ public class Enemy : MonoBehaviour
             destination = (destination+1) % waypoints.Length;
             target = waypoints[destination];
             sprite.flipX = !sprite.flipX;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(other.transform.CompareTag("Player")){
+            HealthPoint HP = other.transform.GetComponent<HealthPoint>();
+            HP.TakeDmg(dmg);
         }
     }
 }
