@@ -5,13 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class NexLevel : MonoBehaviour
 {
-   private int i = 1;
+   public int i = 0;
    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
+        if (other.CompareTag("Player")){
             SceneManager.LoadScene(i);
-            i++;
         }
     }
 }
