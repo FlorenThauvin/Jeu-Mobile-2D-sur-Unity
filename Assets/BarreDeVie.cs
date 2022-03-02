@@ -9,14 +9,14 @@ public class BarreDeVie : MonoBehaviour{
     public Image img;
 
     public void SetMaxHealth(int vie){
-        slider.maxValue = vie;
+        slider.maxValue = vie;          // on lui met tous ses HP
         slider.value = vie;
 
-        img.color = grad.Evaluate(1f);
+        img.color = grad.Evaluate(1f); // dégradé de couleur pour la barre de vie
     }
 
     public void SetHealth( int vie){
         slider.value = vie;
-        img.color = grad.Evaluate(slider.normalizedValue);
+        img.color = grad.Evaluate(slider.normalizedValue);      // on normalise pour avoir le dégradé entre 0 et 1
     }
 }

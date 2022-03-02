@@ -20,22 +20,22 @@ public class HealthPoint : MonoBehaviour{
         if(!isTouchable){
             current -= dmg;
             HP.SetHealth(current);
-            isTouchable=true;
-            StartCoroutine(Flash());
-            StartCoroutine(Delay());
+            isTouchable=true;                       
+            StartCoroutine(Flash());                // on démarre le flash
+            StartCoroutine(Delay());                // on démarre le delay
         }
     }
 
     public IEnumerator Flash(){
-        while(isTouchable){
+        while(isTouchable){                             // si il est intouchable il devient invisible toute les 0.2
             sprite.color = new Color(1f,1f,1f,0f);
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.2f);      // delai de 0.2 s entre chaque phase
             sprite.color = new Color(1f,1f,1f,1f);
             yield return new WaitForSeconds(0.2f);
         }
     }
     public IEnumerator Delay(){
-        yield return new WaitForSeconds(2f);
-        isTouchable = false;
+        yield return new WaitForSeconds(2f);            // durée de l'invincibilité
+        isTouchable = false;                            // il redevient touchable après 2s
     }
 }

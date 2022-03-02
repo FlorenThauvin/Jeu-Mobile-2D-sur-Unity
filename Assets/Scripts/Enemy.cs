@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
             sprite.flipX = !sprite.flipX;
         }
     }
-    private void OnCollisionEnter2D(Collision2D other) {
+    private void OnCollisionEnter2D(Collision2D other) {        // fonction qui permet a l'ennemi de faire des dégats si il rentre en collision
         if(other.transform.CompareTag("Player")){
             HealthPoint HP = other.transform.GetComponent<HealthPoint>();
             HP.TakeDmg(dmg);
