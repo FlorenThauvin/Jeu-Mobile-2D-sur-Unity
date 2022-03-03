@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthPoint : MonoBehaviour{
     public int maxHP =100;
@@ -15,6 +16,10 @@ public class HealthPoint : MonoBehaviour{
 
 
     void Update(){
+        if(current <= 0 || GameObject.FindGameObjectsWithTag("Player")[0].transform.position.y <= -11)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
     public void TakeDmg(int dmg){
         if(!isTouchable){
