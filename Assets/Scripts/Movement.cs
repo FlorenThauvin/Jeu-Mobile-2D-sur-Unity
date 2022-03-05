@@ -23,6 +23,7 @@ public class Movement : MonoBehaviour{
         {
             moveRight = 0f;
         }
+
         float moveKeyBoard = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;     // si il appuie les touches de déplacement on multiplue l'axe horizontal par la speed et deltaTime
         Move(moveRight);
         //Move(moveKeyBoard); // Developpement ajout clavier
