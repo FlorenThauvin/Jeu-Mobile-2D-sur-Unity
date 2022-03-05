@@ -13,14 +13,11 @@ public class Movement : MonoBehaviour{
 
     void FixedUpdate(){ 
 
-        if (joystick.Horizontal >= .3f)
-        {
+        if (joystick.Horizontal >= .3f){
             moveRight = moveSpeed * Time.deltaTime;
-        } else if (joystick.Horizontal <= -.3f)
-        {
+        } else if (joystick.Horizontal <= -.3f){
             moveRight = -moveSpeed * Time.deltaTime;
-        } else
-        {
+        } else{
             moveRight = 0f;
         }
         float moveKeyBoard = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;     // si il appuie les touches de déplacement on multiplue l'axe horizontal par la speed et deltaTime
