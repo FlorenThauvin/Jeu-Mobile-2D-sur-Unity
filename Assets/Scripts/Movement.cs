@@ -13,14 +13,11 @@ public class Movement : MonoBehaviour{
 
     void FixedUpdate(){ 
 
-        if (joystick.Horizontal >= .3f)
-        {
+        if (joystick.Horizontal >= .3f){
             moveRight = moveSpeed * Time.deltaTime;
-        } else if (joystick.Horizontal <= -.3f)
-        {
+        } else if (joystick.Horizontal <= -.3f){
             moveRight = -moveSpeed * Time.deltaTime;
-        } else
-        {
+        } else{
             moveRight = 0f;
         }
 
