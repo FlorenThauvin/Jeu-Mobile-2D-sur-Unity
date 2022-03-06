@@ -11242,7 +11242,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 602619169}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f3aec86db0dc0b4428a0084355d39cd5, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -11851,7 +11851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -772, y: 376}
+  m_AnchoredPosition: {x: -781.9, y: 483.74}
   m_SizeDelta: {x: 119.985, y: 39.522}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805779923
@@ -27405,7 +27405,7 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -27930,7 +27930,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -890, y: 398}
+  m_AnchoredPosition: {x: -894.6, y: 453.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1674071716
@@ -30461,7 +30461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -772, y: 317.2}
+  m_AnchoredPosition: {x: -776, y: 369.4}
   m_SizeDelta: {x: 311.429, y: 53.114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2137331755

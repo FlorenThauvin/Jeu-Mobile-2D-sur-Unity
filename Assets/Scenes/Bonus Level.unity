@@ -55216,7 +55216,7 @@ MonoBehaviour:
   body: {fileID: 1494084622}
   animator: {fileID: 1494084625}
   sprite: {fileID: 1494084619}
-  moveRight: 0
+  moveRight: 2
   joystick: {fileID: 449787990}
 --- !u!58 &1494084624
 CircleCollider2D:
@@ -55296,7 +55296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e51ef5e6f167d4f81b27b22c582f5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: 0}
+  body: {fileID: 1494084622}
 --- !u!1 &1513014798
 GameObject:
   m_ObjectHideFlags: 0
