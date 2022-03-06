@@ -27,7 +27,6 @@ public class Movement : MonoBehaviour{
         Flip(body.velocity.x);
         float absVelocity = Mathf.Abs(body.velocity.x);
         animator.SetFloat("Speed",absVelocity);
-
     }
 
     void Update() {
