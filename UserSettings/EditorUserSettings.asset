@@ -35,8 +35,11 @@ EditorUserSettings:
     RecentlyUsedScenePath-9:
       value: 22424703114646680e0b0227036c73150012147b627968252320092a
       flags: 0
+    UnityRemoteCompression:
+      value: 29617121
+      flags: 0
     UnityRemoteDevice:
-      value: 510602520457080a0f5e0d7149255e464f4641732a292068797e1f30b1e16369e0e230edbe6e6a69
+      value: 225f4d46245b0d4902070862342649191512
       flags: 0
     UnityRemoteJoystickSource:
       value: 2f5e570709

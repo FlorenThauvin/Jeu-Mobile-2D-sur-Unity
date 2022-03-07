@@ -11,13 +11,21 @@ public class Movement : MonoBehaviour{
     public float moveRight = 0f;
     public Joystick joystick;
 
-    void FixedUpdate(){ 
+    void FixedUpdate(){   
+    }
 
-        if (joystick.Horizontal >= .3f){
+    void Update() {
+        
+        if (joystick.Horizontal >= .3f)
+        {
             moveRight = moveSpeed * Time.deltaTime;
-        } else if (joystick.Horizontal <= -.3f){
+        }
+        else if (joystick.Horizontal <= -.3f)
+        {
             moveRight = -moveSpeed * Time.deltaTime;
-        } else{
+        }
+        else
+        {
             moveRight = 0f;
         }
 
@@ -26,10 +34,7 @@ public class Movement : MonoBehaviour{
         //Move(moveKeyBoard); // Developpement ajout clavier
         Flip(body.velocity.x);
         float absVelocity = Mathf.Abs(body.velocity.x);
-        animator.SetFloat("Speed",absVelocity);
-    }
-
-    void Update() {
+        animator.SetFloat("Speed", absVelocity);
     }
 
     public void JumpButton()
