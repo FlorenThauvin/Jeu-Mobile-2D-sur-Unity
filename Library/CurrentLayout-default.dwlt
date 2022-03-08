@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 677, y: 492}
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 180
+  controlID: 17
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1368
     height: 947
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 181
+  controlID: 118
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1368
     height: 560
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 182
+  controlID: 119
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,18 +348,18 @@ MonoBehaviour:
       y: 21
       width: 964
       height: 518
-    m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 291.9613, y: 280.94644}
+    m_Scale: {x: 1.464263, y: 1.464263}
+    m_Translation: {x: 391.10385, y: 255.34367}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -145.98065
-      y: -140.47322
-      width: 482
-      height: 259
+      x: -267.09946
+      y: -174.38376
+      width: 658.3517
+      height: 353.7616
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 964, y: 539}
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 64c70000
-      m_LastClickedID: 51044
-      m_ExpandedIDs: 50a6ffff76a7ffff00c4ffffdcc60000bac70000
+      m_SelectedIDs: c6ad0300
+      m_LastClickedID: 241094
+      m_ExpandedIDs: 76a6ffff12a7ffff84a7ffffd4a7ffff0ca9ffff3ea9ffffd0adffff00afffffa2b5ffff0cb6ffff48b6ffff7ab6ffff88b9ffffaab9ffff48c4ffffaac7ffffe0c7ffffb0ceffffd6ceffff04cfffff2ccffffff6d4ffff60d5ffffbcd6ffffc2e3fffff4ffffff0ca20000a2a200001ab5000090b50000dc8a0200468b0200728b020052ad0300acad0300bcad0300e8ad0300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 34.963245, y: -1.3440255, z: -32.669594}
+    m_Target: {x: 68.32918, y: 1.8743845, z: -8.227701}
     speed: 2
-    m_Value: {x: 34.963245, y: -1.3440255, z: -32.669594}
+    m_Value: {x: 68.32918, y: 1.8743845, z: -8.227701}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,9 +511,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.677498
+    m_Target: 3.7508283
     speed: 2
-    m_Value: 7.677498
+    m_Value: 3.7508283
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -584,14 +584,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\projet\GameMobilit-
+  m_LastProjectPath: C:\Users\HP\Desktop\Unity\GameMobilit-
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: bc9a0000
-    m_LastClickedID: 39612
-    m_ExpandedIDs: 000000007e9a0000809a0000829a0000849a0000869a0000889a00008a9a00008c9a00008e9a0000909a0000929a0000949a0000969a0000989a00009a9a00009c9a00009e9a0000a09a0000a29a000000ca9a3b
+    m_SelectedIDs: d8770000
+    m_LastClickedID: 30680
+    m_ExpandedIDs: 000000009a7700009c7700009e770000a0770000a2770000a4770000a6770000a8770000aa770000ac770000ae770000b0770000b2770000b4770000b6770000b8770000ba770000bc770000be770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,7 +619,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e9a0000809a0000829a0000849a0000869a0000889a00008a9a00008c9a00008e9a0000909a0000929a0000949a0000969a0000989a00009a9a00009c9a00009e9a0000a09a0000a29a000000ca9a3b
+    m_ExpandedIDs: 000000009a7700009c7700009e770000a0770000a2770000a4770000a6770000a8770000aa770000ac770000ae770000b0770000b2770000b4770000b6770000b8770000ba770000bc770000be770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
