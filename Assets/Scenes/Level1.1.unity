@@ -28144,7 +28144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494084618}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.1, y: 0.09, z: 0}
+  m_LocalPosition: {x: -19.38, y: -0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2115876106}
@@ -28217,7 +28217,7 @@ MonoBehaviour:
   body: {fileID: 1494084622}
   animator: {fileID: 1494084625}
   sprite: {fileID: 1494084619}
-  moveRight: 20
+  moveRight: 50
   joystick: {fileID: 129674913}
 --- !u!58 &1494084624
 CircleCollider2D:
