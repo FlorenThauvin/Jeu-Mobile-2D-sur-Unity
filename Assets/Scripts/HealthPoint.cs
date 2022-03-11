@@ -8,6 +8,7 @@ public class HealthPoint : MonoBehaviour{
     public int current;
     public bool isTouchable=false;
     public SpriteRenderer sprite;
+    public int death;
     public BarreDeVie HP;
     void Start(){
         current = maxHP;
@@ -16,7 +17,7 @@ public class HealthPoint : MonoBehaviour{
 
 
     void Update(){
-        if(current <= 0 || GameObject.FindGameObjectsWithTag("Player")[0].transform.position.y <= -11)
+        if(current <= 0 || GameObject.FindGameObjectsWithTag("Player")[0].transform.position.y <= death)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }

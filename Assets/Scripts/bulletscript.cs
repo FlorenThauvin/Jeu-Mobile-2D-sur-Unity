@@ -5,6 +5,7 @@ using UnityEngine;
 public class bulletscript : MonoBehaviour{
     public float speed;
     private float time;
+    public float destroy;
     Rigidbody2D body;
     void Start(){
         body = GetComponent<Rigidbody2D>();
@@ -12,7 +13,7 @@ public class bulletscript : MonoBehaviour{
     }
 
     void Update(){
-        if(time>=2.8){
+        if(time>=destroy){
             Destroy(gameObject); 
         }
         else { time+=Time.deltaTime;}

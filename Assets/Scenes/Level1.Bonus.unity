@@ -55269,6 +55269,7 @@ MonoBehaviour:
   current: 0
   isTouchable: 0
   sprite: {fileID: 1494084619}
+  death: -2000
   HP: {fileID: 2137331756}
 --- !u!114 &1494084627
 MonoBehaviour:
