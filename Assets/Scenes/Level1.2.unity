@@ -48191,12 +48191,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e132434a3e9c4f459b22255eae1ced8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 350
+  moveSpeed: 450
   jump: 5
   body: {fileID: 1494084622}
   animator: {fileID: 1494084625}
   sprite: {fileID: 1494084619}
-  moveRight: 25
+  moveRight: 0
   joystick: {fileID: 129674913}
 --- !u!58 &1494084624
 CircleCollider2D:
