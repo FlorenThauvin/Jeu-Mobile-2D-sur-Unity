@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     public static bool isPaused = false;
     public GameObject gameOverScreen;
     public GameObject PauseScreen;
+    public GameObject VictoryScreen;
     private void Awake()
     {
         isGameOver = false;
@@ -20,6 +21,11 @@ public class PlayerManager : MonoBehaviour
         {
             gameOverScreen.SetActive(true);
         }
+    }
+
+    public void CompleteLevel()
+    {
+        VictoryScreen.SetActive(true);
     }
   
     public void Pause()
