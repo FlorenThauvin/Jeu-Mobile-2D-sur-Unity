@@ -1,7 +1,12 @@
 # GameMobilit-
-SIUUUUUUUUUUUUUUUUUu
-Space pour sauter
+Jeux mobiles.
 
-Flèches directionels pour se diriger
+Pour les déplacements : 
+  - Joysticks sur la gauche pour les mouvements horizontaux
+  - Bouton Jump à droite pour sauter
 
-Sauter sur la têtes des ennemis pour les tuer.
+Les ennemis peuvent être détruit avec un saut sur la tête.
+
+Objectifs : 
+  - Atteindre le drapeau rouge de fin de niveau le plus rapidement possible sans mourrir.
+  
