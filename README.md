@@ -4,6 +4,7 @@ Jeux mobiles.
 Pour les déplacements : 
   - Joysticks sur la gauche pour les mouvements horizontaux
   - Bouton Jump à droite pour sauter
+  - Gyroscope pour les niveaux bonus ( le bouton jump permet de ralentir la chute )
 
 Les ennemis peuvent être détruit avec un saut sur la tête.
 
